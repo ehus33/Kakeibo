@@ -1,0 +1,32 @@
+/* Nav.css */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffe2e2;
+    border-bottom: 2px solid #ffcaca;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-button {
+    background-color: #ffffff;
+    border: 2px solid #ffb6b6;
+    color: #444;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .nav-button:hover {
+    background-color: #ffb6b6;
+    color: white;
+    transform: scale(1.05);
+  }
+  
